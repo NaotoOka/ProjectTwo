@@ -21,7 +21,7 @@ public class ProjectTwoTaskTwo {
 			System.out.println("the cost " +cost);
 		}
 
-		
+	System.out.println("Hi");	
 
 	}
 
