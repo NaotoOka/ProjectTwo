@@ -13,8 +13,15 @@ public class ProjectTwoTaskTwo {
 		
 		double cost = 44.55;
 		String owners = "Naoto";
+		String coOwner = "Nicholas";
 		
 		if(owners.equalsIgnoreCase(name))
+		{
+			System.out.println("You are eligible for a $2.00 discount");
+			cost = cost - 2 ;
+			System.out.println("the cost " +cost);
+		}
+		else if (coOwner.equalsIgnoreCase(name))
 		{
 			System.out.println("You are eligible for a $2.00 discount");
 			cost = cost - 2 ;
